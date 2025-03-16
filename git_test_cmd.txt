@@ -1,0 +1,29 @@
+
+
+
+
+echo " hi hello world 1" > git_test1.txt 
+Git add .
+git commit -m " 1rd  commit" 
+                                
+echo " hi hello world 2" > git_test2.txt
+Git add .
+git commit -m " 2rd  commit" 
+                               
+echo " hi hello world 3" > git_test3.txt   
+Git add . 
+git commit -m " 3rd  commit"                              
+
+echo " hi hello world 4" > git_test4.txt                 
+git add . 
+git stash   
+
+echo " hi hello world 5" > git_test5.txt     
+git add .
+git stash   
+
+
+git branch request 
+git switch request
+echo " hi hello world temp req" > git_test_temp.txt
+git add .
